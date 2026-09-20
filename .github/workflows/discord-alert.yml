@@ -1,0 +1,21 @@
+name: Discord Alert
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send Discord notification
+        uses: tsickert/discord-webhook@v7.0.0
+        with:
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          content: |
+            🚀 Novo push realizado na branch main!
+            📦 Repositório: ${{ github.repository }}
+            👤 Autor: ${{ github.actor }}
+            📝 Commit: ${{ github.event.head_commit.message }}
