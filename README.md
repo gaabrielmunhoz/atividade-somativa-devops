@@ -13,3 +13,5 @@ Portifólio pessoal desenvolvido com foco em interface moderna, animações e re
 ## Objetivo
 
 Projeto desenvolvido para a disciplina DevOps, utilizado para praticar o versionamento com Git, integração e entrega contínua com GitHub Actions e conteinerização com Docker.
+
+Os testes unitários são executados automaticamente pelo GitHub Actions em Pull Requests.
