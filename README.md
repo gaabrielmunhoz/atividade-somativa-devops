@@ -13,3 +13,7 @@ Portifólio pessoal desenvolvido com foco em interface moderna, animações e re
 ## Objetivo
 
 Projeto desenvolvido para a disciplina DevOps, utilizado para praticar o versionamento com Git, integração e entrega contínua com GitHub Actions e conteinerização com Docker.
+
+## Testando atualmente:
+
+* Alertas do Discord via GitHub Actions.
